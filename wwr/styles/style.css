@@ -41,16 +41,16 @@ h4 {
     color:rgba(141, 4, 22, 1);
 }
 .book{
-    background-color: #e19651
+    background-color: #e19651;
 }
 .join{
-    background-color: #e19651
+    background-color: #e19651;
 }
 .msg h2 {
-    color: #031a6b
+    color: #031a6b;
 }
 .msg p {
-    color:#ec5109
+    color:#ec5109;
 }
 footer h3 {
     color: #031a6b;
@@ -59,7 +59,7 @@ footer a {
     color: #031a6b; text-decoration: none;
 }
 footer a:hover {
-    background-color: rgba(141, 4, 22, 1); color: rgba(141, 4, 22, 1)
+    background-color: rgba(141, 4, 22, 1); color: rgba(141, 4, 22, 1);
 }
 .logo { 
     width: 80px;
@@ -75,6 +75,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+    color: rgba(141, 4, 22, 1);
 }
 footer p a:hover {
     text-decoration: underline;

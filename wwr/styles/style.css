@@ -23,7 +23,8 @@ nav a:hover {
     background-color: #e19651; height: 725px;
 }
 .msg {
-    background-color: #e19651;
+    background-color: #e19651; 
+    color: rgba(141, 4, 22, 1);
 } 
 header,footer{      
     background-color:#e19651;
@@ -35,7 +36,7 @@ nav a:hover {
     background-color: #e19651;color:#031a6b;
 }
 home-title{
-    color:#ec5109;
+    color:rgba(141, 4, 22, 1);
 }
 h4 {
     color:rgba(141, 4, 22, 1);

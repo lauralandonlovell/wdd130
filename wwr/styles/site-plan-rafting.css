@@ -15,14 +15,14 @@ Fonts are separated by a & */
   --paragraph-font: Raleway, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #ec5109;  /* headlines on a white background */ 
+  --headline-color-on-white: #9f3c3c;  /* headlines on a white background */ 
   --headline-color-on-color: #031a6b; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #ec5109; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: rgba(141, 4, 22, 1); /* paragraph text on a white background */ 
   --paragraph-color-on-color: #e19651; /* paragraph text on a colored background */ 
   --paragraph-background-color: #f0eaea  ;
   --nav-link-color:#ec5109 ;
   --nav-background-color: #031a6b;
-  --nav-hover-link-color:#9f3c3c ;
+  --nav-hover-link-color:#e19651 ;
   --nav-hover-background-color:#f0eaea ;
 }
 

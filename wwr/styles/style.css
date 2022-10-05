@@ -4,6 +4,7 @@
 body {
     background-color: #e19651;
 }
+header { background-color: rgba(141, 4, 22, 1)}
 nav a:hover {
     background-color: #e19651; color:#031a6b;
 }
@@ -20,7 +21,7 @@ nav a:hover {
     background-color: #e19651; color: rgba(141, 4, 22, 1);
 } 
 #background {
-    background-color: #e19651; height: 725px;
+    background-color: #031a6b; height: 725px;
 }
 .msg {
     background-color: #e19651; 

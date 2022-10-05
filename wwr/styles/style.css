@@ -3,6 +3,7 @@
 }
 body {
     background-color: #e19651;
+    font-family:'Georgia', 'Times New Roman', serif;
 }
 header { background-color: white }
 nav a:hover {
@@ -29,6 +30,7 @@ nav a:hover {
 } 
 footer{      
     background-color:rgba(81, 36, 37, 1);
+    color:grey
 }
 nav a { 
     text-align: center; color:rgba(141, 4, 22, 1); text-decoration: none;
@@ -36,30 +38,34 @@ nav a {
 nav a:hover {
     background-color: #e19651;color:rgba(141, 4, 22, 1);
 }
-home-title{
+.home-title{
     color:rgba(141, 4, 22, 1);
+    font-family: 'Georgia','Times New Roman', serif;
 }
 h4 {
     color:rgba(141, 4, 22, 1);
 }
 .book{
     background-color: #e19651;
+    color:#031a6b;
 }
 .join{
     background-color: #e19651;
+    color: #031a6b
 }
 .msg h2 {
     color: #031a6b;
+    font-family: 'Georgia', 'Times New Roman', serif;
     text-align: center;
 }
 .msg p {
     color:#031a6b;
 }
 footer h3 {
-    color: #e19651;
+    color: grey;
 }
 footer a { 
-    color: grey; text-decoration: none;
+    color: #e19651; text-decoration: none;
 }
 footer a:hover {
     background-color: #e19651; color: rgba(141, 4, 22, 1);

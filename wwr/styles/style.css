@@ -4,7 +4,7 @@
 body {
     background-color: #e19651;
 }
-header { background-color: rgba(141, 4, 22, 1)}
+header { background-color:#031a6b }
 nav a:hover {
     background-color: #e19651; color:#031a6b;
 }
@@ -27,8 +27,8 @@ nav a:hover {
     background-color: #e19651; 
     color: rgba(141, 4, 22, 1);
 } 
-header,footer{      
-    background-color:#e19651;
+footer{      
+    background-color:rgba(98, 68, 64, 1);
 }
 nav a { 
     text-align: center; color:rgba(141, 4, 22, 1); text-decoration: none;

@@ -4,7 +4,7 @@
 body {
     background-color: #e19651;
 }
-header { background-color:#031a6b }
+header { background-color:#e19651 }
 nav a:hover {
     background-color: #e19651; color:#031a6b;
 }

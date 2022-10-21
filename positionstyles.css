@@ -189,6 +189,7 @@
   width: 100%;
   height: 100px;
   background-color: blue;
+  clear: left;
 }
 
 /* Activity 6 styles */

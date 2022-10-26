@@ -2,18 +2,18 @@
     max-width: 1600px; margin: 0 auto;
 }
 body {
-    background-color: #e19651;
-    font-family:'Georgia', 'Times New Roman', serif;
+    background-color: #bbd5ec;
+    font-family:"Rubik Light Light", "Didot", "sans serif";
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
-header { background-color: white }
+header { background-color: #031a6b }
 nav a:hover {
-    background-color: #e19651; color:#031a6b;
+    background-color:#f80000 ; color:#031a6b;
 }
 .book, .join {
-    background-color: #e19651; color: #031a6b;
+    background-color: #031a6b; color: #f80000;
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;
@@ -22,17 +22,17 @@ nav a:hover {
     
 } 
 .book:hover {
-    background-color: #e19651; color:rgba(141, 4, 22, 1);
+    background-color: #bbd5ec; color:#031a6b;
 }
 .join:hover {
-    background-color: #e19651; color: rgba(141, 4, 22, 1);
+    background-color:#a31621 ; color: #bbd5ec;
 } 
 #background {
     background-color: #031a6b; height: 725px;
 }
 .msg {
-    background-color: #e19651; 
-    color: rgba(141, 4, 22, 1);
+    background-color:#bbd5ec ; 
+    color: #a31621;
     line-height: 1.5em;
     padding: 35px;
 } 
@@ -40,24 +40,24 @@ nav a:hover {
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid #000000
+    border: 10px solid #031a6b
 }
 footer{      
-    background-color:rgba(81, 36, 37, 1);
-    color:grey;
+    background-color:#f80000 ;
+    color:#a31621;
     padding: 25px 50px;
     margin-top: 200px;
 }
 nav a { 
-    text-align: center; color:rgba(141, 4, 22, 1); text-decoration: none;
+    text-align: center; color: #031a6b; text-decoration: none;
     padding: 35px;
 }
 nav a:hover {
-    background-color: #e19651;color:rgba(141, 4, 22, 1);
+    background-color: #bbd5ec;color:#a31621;
 }
 .home-title{
-    color:rgba(141, 4, 22, 1);
-    font-family: 'Georgia','Times New Roman', serif;
+    color:#031a6b;
+    font-family: "Rubik Light Light", "Didot", "sans serif";
     font-size: 2em;
     margin-top: 10px;
 }
@@ -65,26 +65,26 @@ h2 {
     margin: 0;
 }
 h4 {
-    color:rgba(141, 4, 22, 1);
+    color:#f80000;
 }
 .msg h2 {
     color: #031a6b;
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: "Rubik Light Light", "Didot", "sans serif";
     text-align: center;
 }
 .msg p {
-    color:#031a6b;
+    color:#a31621;
     font-size: .8em;
     padding-bottom: 15px;
 }
 footer h3 {
-    color: grey;
+    color: #bbd5ec;
 }
 footer a { 
-    color: #e19651; text-decoration: none;
+    color: #f80000; text-decoration: none;
 }
 footer a:hover {
-    background-color: #e19651; color: rgba(141, 4, 22, 1);
+    background-color:#031a6b ; color: #f80000;
 }
 .logo { 
     width: 80px;
@@ -98,12 +98,12 @@ footer a:hover {
      width: 100%;
 }
 #hero-msg h1 {
-    color: rgba(141, 4, 22, 1);
+    color: #031a6b;
     text-align: center;
 
 }
 #hero-msg h4 {
-    font-family: 'Georgia', 'Times New Roman', serif;
+    font-family: "Rubik Light Light", "Didot", "sans serif";
     text-align: center;
 }
  .button-box, main section {
@@ -114,7 +114,7 @@ main section img {
 }
 footer p {
     font-size: 1.2em;
-    color: #e19651;
+    color: #bbd5ec;
 }
 footer p a:hover {
     text-decoration: underline;

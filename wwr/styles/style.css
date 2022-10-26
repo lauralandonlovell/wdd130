@@ -8,9 +8,9 @@ body {
     margin: 0;
     padding: 0;
 }
-header { background-color: #031a6b }
+header { background-color: #a31621 }
 nav a:hover {
-    background-color:#f80000 ; color:#031a6b;
+    background-color:#031a6b; color:#f80000;
 }
 .book, .join {
     background-color: #031a6b; color: #f80000;
@@ -22,13 +22,13 @@ nav a:hover {
     
 } 
 .book:hover {
-    background-color: #bbd5ec; color:#031a6b;
+    background-color: #031a6b; color:#f80000;
 }
 .join:hover {
-    background-color:#a31621 ; color: #bbd5ec;
+    background-color: #bbd5ec; color: #031a6b;
 } 
 #background {
-    background-color: #031a6b; height: 725px;
+    background-color: #a31621; height: 725px;
 }
 .msg {
     background-color:#bbd5ec ; 

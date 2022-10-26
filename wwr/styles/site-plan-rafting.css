@@ -14,12 +14,12 @@ Fonts are separated by a & */
   --paragraph-font: "Rubik Light Light", "Optima Extra Black", "sans serif";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #f80000 ;  /* headlines on a white background */ 
-  --headline-color-on-color: #bbd5ec; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #031a6b; /* paragraph text on a white background */ 
+  --headline-color-on-white: #031a6b ;  /* headlines on a white background */ 
+  --headline-color-on-color: #0f4c81; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #a31621; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #bbd5ec; /* paragraph text on a colored background */ 
   --paragraph-background-color:  #a31621;
-  --nav-link-color: #f80000;
+  --nav-link-color: #0f4c81;
   --nav-background-color: #031a6b;
   --nav-hover-link-color: #a31621;
   --nav-hover-background-color: #bbd5ec;

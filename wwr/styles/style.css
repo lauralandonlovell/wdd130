@@ -8,12 +8,12 @@ body {
     margin: 0;
     padding: 0;
 }
-header { background-color: #a31621 }
+header { background-color: #031a6b }
 nav a:hover {
-    background-color:#031a6b; color:#f80000;
+    background-color:#a31621; color:#0f4c81;
 }
 .book, .join {
-    background-color: #031a6b; color: #f80000;
+    background-color: #0f4c81; color: #031a6b;
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;
@@ -22,17 +22,17 @@ nav a:hover {
     
 } 
 .book:hover {
-    background-color: #031a6b; color:#f80000;
+    background-color: #031a6b; color:#bbd5ec;
 }
 .join:hover {
     background-color: #bbd5ec; color: #031a6b;
 } 
 #background {
-    background-color: #a31621; height: 725px;
+    background-color: #031a6b; height: 725px;
 }
 .msg {
     background-color:#bbd5ec ; 
-    color: #a31621;
+    color: #031a6b;
     line-height: 1.5em;
     padding: 35px;
 } 
@@ -43,8 +43,8 @@ nav a:hover {
     border: 10px solid #031a6b
 }
 footer{      
-    background-color:#f80000 ;
-    color:#a31621;
+    background-color: #a31621;
+    color:;
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -63,9 +63,10 @@ nav a:hover {
 }
 h2 {
     margin: 0;
+    color:#031a6b
 }
 h4 {
-    color:#f80000;
+    color:#0f4c81;
 }
 .msg h2 {
     color: #031a6b;
@@ -81,10 +82,10 @@ footer h3 {
     color: #bbd5ec;
 }
 footer a { 
-    color: #f80000; text-decoration: none;
+    color: #0f4c81; text-decoration: none;
 }
 footer a:hover {
-    background-color:#031a6b ; color: #f80000;
+    background-color:#031a6b ; color: #a31621;
 }
 .logo { 
     width: 80px;

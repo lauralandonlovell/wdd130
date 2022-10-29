@@ -1,6 +1,3 @@
-#content { 
-    max-width: 1600px; margin: 0 auto;
-}
 body {
     background-color: #bbd5ec;
     font-family:"Rubik Light Light", "Didot", "sans serif";
@@ -8,24 +5,79 @@ body {
     margin: 0;
     padding: 0;
 }
-header { background-color: #031a6b }
-nav a:hover {
-    background-color:#a31621; color:#0f4c81;
+#content { 
+    max-width: 1600px; margin: 0 auto;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto; 
+    background-color: #800000 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a { 
+    text-align: center; 
+    color: #bbd5ec; text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#bbd5ec; color:#031a6b;
+}
+.home-title {
+    color:#bbd5ec;
+    font-family: "Rubik Medium Medium Italic", "Didot", "sans serif";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .book, .join {
-    background-color: #0f4c81; color: #031a6b;
+    background-color: #031a6b; color: #bbd5ec;
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 } 
 .book:hover {
-    background-color: #031a6b; color:#bbd5ec;
+    background-color: #a31621; color:#bbd5ec;
 }
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg {
+    color: #bbd5ec;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h4 {
+    font-family: "Rubik Light Light", "Didot", "sans serif";
+    text-align: center;
+    color:#ffffff;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 .join:hover {
-    background-color: #bbd5ec; color: #031a6b;
+    background-color: #a31621; color: #bbd5ec;
 } 
 #background {
     background-color: #031a6b; height: 725px;
@@ -42,31 +94,18 @@ nav a:hover {
 .card-img {
     border: 10px solid #031a6b
 }
-footer{      
+
+footer {      
     background-color: #a31621;
-    color:;
+    color:#bbd5ec;
     padding: 25px 50px;
     margin-top: 200px;
 }
-nav a { 
-    text-align: center; color: #031a6b; text-decoration: none;
-    padding: 35px;
-}
-nav a:hover {
-    background-color: #bbd5ec;color:#a31621;
-}
-.home-title{
-    color:#031a6b;
-    font-family: "Rubik Light Light", "Didot", "sans serif";
-    font-size: 2em;
-    margin-top: 10px;
+h4 {
+    color:#ffffff;
 }
 h2 {
-    margin: 0;
-    color:#031a6b
-}
-h4 {
-    color:#0f4c81;
+    color:#031a6b;
 }
 .msg h2 {
     color: #031a6b;
@@ -79,35 +118,35 @@ h4 {
     padding-bottom: 15px;
 }
 footer h3 {
-    color: #bbd5ec;
+    color: #031a6b;
 }
 footer a { 
-    color: #0f4c81; text-decoration: none;
+    color: #a31621; text-decoration: none;
 }
 footer a:hover {
-    background-color:#031a6b ; color: #a31621;
+    background-color:#031a6b ; color: #bbd5ec;
 }
-.logo { 
-    width: 80px;
+.logo {
     padding-top: 5px;
-} 
+    width: 200px;
+}
 .icon {
     width: 80px;
     padding-top: 10px;
 }
-#hero-img {
-     width: 100%;
-}
-#hero-msg h1 {
-    color: #031a6b;
-    text-align: center;
 
-}
-#hero-msg h4 {
-    font-family: "Rubik Light Light", "Didot", "sans serif";
+
+
+
+
+
+
+
+
+.button-box {
     text-align: center;
 }
- .button-box, main section {
+main section {
     text-align: center;
 }
 main section img {

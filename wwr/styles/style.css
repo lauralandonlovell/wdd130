@@ -64,6 +64,7 @@ nav a:hover {
 }
 #hero-img {
     width: 100%;
+
 }
 #hero-msg {
     text-align: center;
@@ -200,6 +201,79 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#banner-img {
+    width: 100%;
+}
+#banner-msg {
+    text-align: center;
+    color: #bbd5ec;
+    grid-column: 2/4;
+    grid-row: 2/12;
+    margin-top: 100px;
+    font-size: .9em;
+    padding-bottom: 15px;
+}/*
+#slideshow-container {
+   width: 400px;
+   height: 267px;
+   margin: 0 auto;   
+}
+.slide {
+    float: left;
+    width: 400px;
+    height: 267px;
+}
+.slide-wrapper {
+    width: calc(400px * 3);
+    animation: slide 10s ease infinite;
+}
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  40% {
+    margin-left: calc(-400px * 1);
+  } 
+  60% {
+    margin-left: calc(-400px * 2);
+  }
+}*/
+rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.rivers2-title {
+    color:#bbd5ec;
+    font-family: "Rubik Medium Medium Italic", "Didot", "sans serif";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

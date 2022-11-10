@@ -216,13 +216,20 @@ footer .social img {
     width: 100%;
 }
 #banner-msg {
-    text-align: center;
-    color: #bbd5ec;
+    background-color:#bbd5ec ; 
+    color: #031a6b;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #800000
+    
+    /*color: #bbd5ec;
     grid-column: 2/4;
-    grid-row: 2/12;
+    grid-row:1/2;
     margin-top: 100px;
-    font-size: .9em;
-    padding-bottom: 15px;
+    font-size: .9em;*/
+   
 }/*
 #slideshow-container {
    width: 400px;
@@ -249,6 +256,7 @@ footer .social img {
     margin-left: calc(-400px * 2);
   }
 }*/
+
 rivers-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -259,7 +267,15 @@ rivers-grid {
     font-size: 2em;
     margin-top: 10px;
 }
+.rivers2-card {
+    border: 10px solid #800000;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #031a6b;
+}
+.rivers2-img {
+    max-width: 33%
 
+}
 
 
 

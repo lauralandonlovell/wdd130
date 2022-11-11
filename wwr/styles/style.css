@@ -235,9 +235,14 @@ footer .social img {
     text-align: center;
     grid-template-columns: 1/2  
 }
-.safety-img {
+.safety-card img {
     border: 10px solid black;
+    transition: transform .5s;
     box-shadow: 5px 5px 10px #031a6b;    
+}
+.safety-card img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .safety-card p {
     text-align: left;
@@ -258,6 +263,7 @@ footer .social img {
    width: 400px;
    height: 267px;
    border: 10px solid black;
+   transition: transform .5s;
    box-shadow: 5px 5px 10px #031a6b;   
 }
 .slide1, .slide2, .slide3 {
@@ -280,13 +286,17 @@ footer .social img {
     margin-left: -800px;
     }
 }
+#slideshow-container:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 .rivers2-card p {
     text-align: left;
     background-color:#bbd5ec ; 
     color: #031a6b;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 3/5;
+    grid-column: 3/4;
     grid-row: 2/4;
     box-shadow: 5px 5px 10px #800000;
 }
@@ -294,9 +304,14 @@ footer .social img {
     margin: 0 auto;
     grid-column: 5/6;
 }
-.fun-img {
+.fun-card img {
     border: 10px solid black;
+    transition: transform .5s;
     box-shadow: 5px 5px 10px #031a6b;
+}
+.fun-card img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 .fun-card p {
     text-align: left;
@@ -304,7 +319,7 @@ footer .social img {
     color: #031a6b;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
+    grid-column: 5/6;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #800000;
 

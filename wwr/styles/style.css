@@ -4,7 +4,7 @@
 }
 body {
     background-color: #bbd5ec;
-    font-family:"Reem Kufi", sans-serif;
+    font-family:"Rubik Light Light", "Didot", "sans serif";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -73,12 +73,12 @@ nav a:hover {
 }
 #hero-msg h1 {
     color:#bbd5ec;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: "Rubik Medium Medium Italic", "Didot", "sans serif";
     font-size: 2em;
     margin-top: 10px;
 }
 #hero-msg h4 {
-    font-family: "Figtree", sans-serif;
+    font-family: "Rubik Light Light", "Didot", "sans serif";
     text-align: center;
     color:#bbd5ec;
     grid-column: 2/3;
@@ -169,7 +169,7 @@ h2 {
 }
 .msg h2 {
     color: #031a6b;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: "Rubik Light Light", "Didot", "sans serif";
     text-align: center;
 }
 .msg p {
@@ -208,7 +208,7 @@ footer .social img {
 }
 #banner-msg {
     text-align: center;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: "Rubik Medium Medium Italic", "Didot", "sans serif";
     font-size: 1em;
     color: #bbd5ec;
     grid-column: 2/5;
@@ -216,7 +216,7 @@ footer .social img {
 }
 .banner-title {
     color:#bbd5ec;
-    font-family: "Reem Kufi", sans-serif;
+    font-family: "Rubik Medium Medium Italic", "Didot", "sans serif";
     font-size: 2em;
     margin-top: 10px;
 }

@@ -1,23 +1,22 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Reem+Kufi&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #031a6b;
+  --primary-color:   #031a6b;
   --secondary-color: #800000;
   --accent1-color: #bbd5ec;
   --accent2-color: #a31621;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Reem Kufi", "sans serif";
-  --paragraph-font: "Figtree", "sans serif";
+  --heading-font: "Rubik Medium Medium Italic", "Didot", "sans serif";
+  --paragraph-font: "Rubik Light Light", "sans serif";
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #031a6b ;  /* headlines on a white background */ 
   --headline-color-on-color: #bbd5ec; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #800000; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #031a6b; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #bbd5ec; /* paragraph text on a colored background */ 
   --paragraph-background-color: #031a6b;
   --nav-link-color: #bbd5ec;

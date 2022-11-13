@@ -10,7 +10,7 @@ Fonts are separated by a | */
   --accent2-color: #bc6c25;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "BioRhyme", "Display";
+  --heading-font: "BioRhyme+Expanded:wght@300;800", "Display";
   --paragraph-font: "Manrope", "Sans-Serif";
 
   /* these colors below should be chosen from among your palette colors above */

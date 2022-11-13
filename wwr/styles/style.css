@@ -62,7 +62,7 @@ nav a:hover {
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-img {
+#hero img {
     width: 100%;
 }
 #hero-msg {
@@ -70,26 +70,11 @@ nav a:hover {
     color: #bbd5ec;
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
-    
-}
-#hero-msg h1 {
-    color:#bbd5ec;
-    font-family: "Spectral+SC:ital,wght@1,600", "serif";
-    font-size: 2em;
-    margin-top: 10px;
-}
-#hero-msg h4 {
-    font-family: "Roboto+Slab", "serif";
-    text-align: center;
-    color:#bbd5ec;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    margin-top: 100px;   
 }
 .button-box {
     text-align: center;
 }
-
 #background {
     background-color: #031a6b; 
     height: 725px;
@@ -199,36 +184,18 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
-} 
-#banner-box {
-    grid-column: 1/5;
-    grid-row: 1/3;
-    z-index: -1;
-}
-#banner-img {
-    width: 100%;
-}
-#banner-msg {
-    text-align: center;
-    font-family: "Roboto+Slab", "serif";
-    font-size: 1em;
-    color: #bbd5ec;
-    grid-column: 2/5;
-    grid-row: 1/4;     
-}
-.banner-title {
-    color:#bbd5ec;
-    font-family: "Spectral+SC:ital,wght@1,600", "Didot", "sans serif";
-    font-size: 2em;
-    margin-top: 10px;
 }
 #rivers2-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);   
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+#banner img {
+    width: 100%;
+    grid-column: 2/3
 }
 
-.safety-card {
-    
+.safety-card { 
     grid-column: 1/2  
 }
 .safety-card img {

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@300;800&family=Manrope&display=swap');
+#content { 
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+body {
+    background-color: #fff3b0;
+    font-family:"BioRhyme+Expanded:wght@300;800", "serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000411 ;
+    display: grid;
+    grid-template-columns: 150px auto; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    padding-top: 5px;
+    width: 70px;
+}
+nav a { 
+    text-align: center; 
+    color: #fff3b0; 
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#fff3b0; 
+    color:#000411;
+}

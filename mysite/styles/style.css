@@ -13,8 +13,7 @@ body {
 header {
     background-color: #000411 ;
     display: grid;
-    grid-template-columns: 150px auto;
-     
+    grid-template-columns:150px auto;    
 }
 nav {
     display: flex;
@@ -33,11 +32,20 @@ nav a {
     text-align: center; 
     color: #fff3b0; 
     text-decoration: none;
-    padding: 35px;
+    padding: 50px;
 }
 nav a:hover {
     background-color:#fff3b0; 
     color:#000411;
+}
+#Teckel-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#Teckel-img {
+    width: 100%;
+    opacity: 0.5;
+    margin: 0 auto;
 }
 footer {       
     background-color: #000411;

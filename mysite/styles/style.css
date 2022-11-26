@@ -72,13 +72,12 @@ nav a:hover {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
-.card-img1, .card-img2 {
-    border: 5px solid #000411;
-}
 .card-img1 {
-    width: 100%;
     grid-column: 1/2;
-
+    border: 5px solid #000411;   
+}
+.card-img2 {
+    
 }
 
 

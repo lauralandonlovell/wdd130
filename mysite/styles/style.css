@@ -41,7 +41,7 @@ nav a:hover {
 #teckel {
     display: grid;
     grid-template-columns: 2fr 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 #teckel-box {
     grid-column: 1/4;
@@ -62,11 +62,23 @@ nav a:hover {
     line-height: 1.5em;
     padding: 35px;
     color: #000411;
-    grid-column: 1/2;
+    grid-column: 1;
     grid-row: 1/2; 
     box-sizing: content-box;
-    box-shadow: 5px -5px 10px #000411;
-    margin-top:35px;   
+    box-shadow: 5px -5px 10px #000411;   
+}
+.main-grid {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.card-img1, .card-img2 {
+    border: 5px solid #000411;
+}
+.card-img1 {
+    width: 100%;
+    grid-column: 1/2;
+
 }
 
 

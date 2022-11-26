@@ -56,8 +56,10 @@ nav a:hover {
     font-family: "BioRhyme+Expanded:wght@300;800", "serif";
     text-align: center;
     color: #000411;
-    grid-column: 2/3;
-    grid-row: 1/2;    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 15px; 
+    box-shadow: 5px 5px 5px;  
 }
 
 

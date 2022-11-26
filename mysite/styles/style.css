@@ -70,46 +70,74 @@ nav a:hover {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     box-shadow: 5px 5px 10px #000411;
-    border: 2px dotted #000411;   
+    border: 2px solid #000411;   
 }
 .left-side {
     width: 100%; 
     grid-column: 1fr;
-    grid-row: 1/2;
     margin: 100px 0;     
 }
 .img1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    border:5px solid #000411;
     margin-left: 50px;
 }
 .left-side video {
     grid-column: 1/3;
     grid-row: 2/4;
-    margin: 50px;     
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 100px;     
 }
 .img2 {
     grid-column: 1fr;
-    grid-row: 4/5;
-    border:5px solid #000411;
+    grid-row: 5;
     margin-left: 50px;
     margin-top: 50px;
 }
 .working-dog {
     grid-column: 2/3;
-    grid-row: 1/3;
+    grid-row: 1/2;
+    line-height: 1.5em;
     box-shadow: 5px 5px 10px #000411;
     padding: 20px;
+    margin-top: 100px;
 }
 .history {
     grid-column: 2/3;
-    grid-row: 2/4;
+    grid-row: 3/4;
+    line-height: 1.3em;
+    padding: 20px;
     box-shadow: 5px 5px 10px #000411;
+    margin-top: 10px;
 }
 .watchdog {
     grid-column: 2/3;
     grid-row: 4/5;
+    line-height: 1.5em;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000411;
+}
+.right-side {
+    width: 100%; 
+    grid-column: 1fr;
+    margin: 100px 0;
+}
+.family-img2 {
+    grid-column: 1fr;
+    grid-row: 1/2;
+    margin-left: 75px;   
+}
+.tail {
+    grid-column: 1fr;
+    grid-row: 2/4;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.right-side video {
+    grid-column: 1fr;
+    grid-row: 4/5;
+    margin: 100px;
 }
 
 

@@ -26,16 +26,25 @@ body {
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
   opacity:0;
   color: rgba(4, 169, 224);
-  font-size: 30px;
+  font-size: 1.5em;
   padding: 15px;
   text-align: left;
 }
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
-    opacity: 5;
+  opacity: 5;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .container, .image, .overlay, .container:hover .overlay {
+    width: 95%;  
+    display: block;
+    height: auto;
   }
+}

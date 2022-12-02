@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #800000;
+    background-color: rgba(128, 0, 0, .5);
     display: grid;
     grid-template-columns: 150px auto; 
 }
@@ -141,7 +141,7 @@ main section img {
     box-sizing: border-box;
 }
 footer {       
-    background-color: #a31621;
+    background-color: #800000;
     color:#bbd5ec;
     padding: 25px 50px;
     margin-top: 200px;

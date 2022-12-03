@@ -177,7 +177,7 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-.container {
+/*.container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     border:5px solid #bc6c25;
@@ -216,7 +216,8 @@ footer .social img {
     padding-left: 10px;
     padding-bottom: 50px; 
     text-align: left;      
-}
+}*/
+
 
 
 

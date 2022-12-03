@@ -222,16 +222,31 @@ footer .social img {
 }
 .grid-left img {
    width: 99%;
+   padding: 10px;
+   margin-top: 10px;
 }
 .lists {
     box-sizing: content-box;
     align-items: center;
     font-size: 1.17em;
     text-align: left;
-    border: 5px solid #bc6c25; 
+    border: 5px solid #bc6c25;
+    margin: 20px;     
 }
-.grid-right img {
-    width: 99%;   
+.crate {
+    width: 97%;
+    padding: 5px;
+    margin-top: 15px;   
+}
+.winnie {
+    width: 97%;
+    padding: 5px;
+    margin-top: 40px;    
+}
+.stairs {
+    width: 97%;
+    padding: 5px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 900px) {

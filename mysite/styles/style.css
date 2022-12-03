@@ -229,8 +229,9 @@ footer .social img {
 .lists {
     box-sizing: content-box;
     align-items: center;
-    font-size: 1.17em;
+    font-size: 1.125em;
     text-align: left;
+    padding: 10px;
     border: 5px solid #bc6c25;
     margin: 20px;     
 }
@@ -255,7 +256,7 @@ footer .social img {
 }
 
 @media screen and (max-width: 900px) {
-    #care-card, #care-grid {
+    #teckel, .main-grid, #care-card, #care-grid {
         display: block;
         height: auto;
     }
@@ -273,6 +274,9 @@ footer .social img {
     }
     #care-card h2 {
         border-left:#fff3b0;
+    }
+    .lists article {
+        font-size: 1.125em;
     }
     .grid-left img {
         width: 96%;

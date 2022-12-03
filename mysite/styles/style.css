@@ -226,6 +226,7 @@ footer .social img {
 .lists {
     box-sizing: content-box;
     align-items: center;
+    font-size: 1.17em;
     text-align: left;
     border: 5px solid #bc6c25; 
 }

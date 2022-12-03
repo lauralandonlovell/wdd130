@@ -225,6 +225,7 @@ footer .social img {
    padding: 10px;
    margin-top: 10px;
 }
+
 .lists {
     box-sizing: content-box;
     align-items: center;
@@ -232,6 +233,10 @@ footer .social img {
     text-align: left;
     border: 5px solid #bc6c25;
     margin: 20px;     
+}
+.lists h2 {
+    text-align: center;
+    text-decoration: underline;
 }
 .crate {
     width: 97%;
@@ -269,7 +274,11 @@ footer .social img {
     #care-card h2 {
         border-left:#fff3b0;
     }
+    .grid-left img {
+        width: 96%;
+        margin: 0 auto;
+    }
     footer {
-        margin-top: 25px;
+        padding: 10px;
     }
 }

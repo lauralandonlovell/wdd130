@@ -235,7 +235,7 @@ footer .social img {
 }
 
 @media screen and (max-width: 900px) {
-    #teckel, .main-grid {
+    #care-card, #care-grid {
         display: block;
         height: auto;
     }
@@ -246,17 +246,13 @@ footer .social img {
         display: block;
         padding: 15px;
     }
-    .left-side {
-        margin: 50px auto;
-        width: 60%;
+    #care-card {
+        width: 99%;
+        padding-right: 5px;
+        margin: 0 auto;
     }
-    .middle {
-        margin: 50px auto;
-        width: 60%;
-    }
-    .right-side {
-        margin: 50px auto;
-        width: 60%;
+    #care-card h2 {
+        border-left:#fff3b0;
     }
     footer {
         margin-top: 25px;

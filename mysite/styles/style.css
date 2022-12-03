@@ -231,17 +231,8 @@ footer .social img {
     border: 5px solid #bc6c25; 
 }
 .grid-right img {
-    width: 99%;
-    
+    width: 99%;   
 }
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 900px) {
     #teckel, .main-grid {

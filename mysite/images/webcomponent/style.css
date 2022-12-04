@@ -1,0 +1,50 @@
+body {
+  background-color:rgba(4, 169, 224);
+}
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
+/* Make the image to responsive */
+.image {
+  display:block;
+  width: 800px;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: rgba(4, 169, 224);
+  font-size: 1.5em;
+  padding: 15px;
+  text-align: left;
+}
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 5;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .container, .image, .overlay, .container:hover .overlay {
+    width: 95%;  
+    display: block;
+    height: auto;
+  }
+}

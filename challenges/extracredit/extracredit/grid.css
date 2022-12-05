@@ -1,15 +1,19 @@
+
 body {
     background-color: rgb(238, 245, 203);
     font-family:"Roboto+Slab", "serif";
     font-size: 22px;
     margin: 0;
-    padding: 0;
+    padding: 0;    
+}
+* {
+    display:grid;
+    grid-template-columns: 2fr;
     box-sizing: border-box;
 }
+
 .grid1 {
-    display:grid;
-    grid-template-columns: 4fr;
-    grid-template-rows: 1fr;
+    grid-area: 1/2/1/1;    
 }
 .grid1 h1 {
     font-size: 20pt bold;

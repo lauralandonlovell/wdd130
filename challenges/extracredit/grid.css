@@ -87,7 +87,7 @@ body {
     border-radius: 5px; 
   }
 
-  /*@media screen and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     body {
         display: block;
         height: auto;

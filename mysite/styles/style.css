@@ -275,11 +275,14 @@ footer .social img {
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;    
 }
-#crafts-grid img {
+#form img {
     width: 100%;
     border-radius: 5px;
     margin: 0 auto;
     z-index: -1;    
+}
+#form .container {
+    grid-column: 2/3;
 }
 #crafts-grid h2 {
     text-align: center;

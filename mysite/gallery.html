@@ -19,34 +19,33 @@
             <a href="gallery.html">Gallery</a>
         </nav>
         </header>
-        <div id="crafts-grid">
-        <section>
+        <section id="crafts-grid">
             <h1>Teckel Crafts and Photos</h1>
-            <div class="crafts-img"><img src="images/page3images/bigeyes.jpg" alt= "winnie-big-eyes">
-                <form action="/my-form-page" method="post">
-                    <ul>
+            <div>
+                <img src="images/page3images/bigeyes.jpg" alt= "winnie-big-eyes">       
+            <div>
+            <form id="crafts-grid-form" action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
-                        
-                        <label for="email"><b>Email</b></label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
                         <input type="email" id="mail" name="user_email" />        
-                        </li>
-                        <li>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send your message</button>  
-                        </li>
-                    </ul>
-                </form>
-            </div>    
-            </section>
-            <section id="pdf">
-                <h2><a class="pdf-button" href="images/page3images/teckel_ramp_revised.pdf">Ramp</a>PDF Links to Directions<a class="pdf-button" href="images/page3images/teckel_tent_revised.pdf">Tent</a></h2>
-                <div class="crafting"><img src="images/page3images/winniesnewramp.jpg" alt="winnie and ramp"></div>    
-            </section>  
-        </div>
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>  
+                    </li>
+                </ul>
+            </form>   
+            <h2><a class="pdf-button" href="images/page3images/teckel_ramp_revised.pdf">Ramp</a>PDF Links to Directions<a class="pdf-button" href="images/page3images/teckel_tent_revised.pdf">Tent</a></h2>
+            <div class="crafting"><img src="images/page3images/winniesnewramp.jpg" alt="winnie and ramp"></div>    
+        </section>
         <main class="gallery-grid">
             <section class=gallery-img>
                 <img src="images/page3images/winnienoseandears.jpg" alt="portrait">

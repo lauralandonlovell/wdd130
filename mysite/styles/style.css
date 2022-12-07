@@ -275,7 +275,8 @@ footer .social img {
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;    
 }
-#crafts-grid h2, .ramp, .tent {
+
+#crafts-grid h2 {
     text-align: center;
     text-decoration: underline;
     background-color: #fff3b0; 
@@ -286,11 +287,13 @@ footer .social img {
     margin-right: 10px;
 }
 #crafts-grid img {
-    grid-column: 1/4;
     width: 99%;
     border-radius: 5px;
     z-index: -1;    
 }
+
+
+
 .pdf-button {
     background-color: #000411; 
     color: #fff3b0;

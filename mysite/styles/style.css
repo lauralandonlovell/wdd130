@@ -275,7 +275,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;    
 }
-#crafts-grid h2 {
+#crafts-grid h2, .ramp, .tent {
     grid-column: 4/6;
     text-align: center;
     text-decoration: underline;
@@ -285,6 +285,13 @@ footer .social img {
     padding: 30px;
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;
+}
+#crafts-grid img {
+    grid-column: 1/4;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    z-index: -1;    
 }
 .ramp,.tent {
     background-color: #000411; 
@@ -299,22 +306,17 @@ footer .social img {
     background-color: #bc6c25; 
     color:#000411;
 }
- 
-.form-img {
-    width: 99%;
-    border-radius: 5px;
-    margin: 0 auto;
-    z-index: -1;    
-}
+
+
 .container {
     position: absolute;
     right: 0;
     margin: 20px;
-    max-width: 300px;
+    max-width: 200px;
     padding: 16px;
-    background-color: white;
-    
+    background-color: white;   
 }
+
 
 
 

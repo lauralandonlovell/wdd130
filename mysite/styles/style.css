@@ -287,9 +287,8 @@ footer .social img {
 }
 #crafts-grid img {
     grid-column: 1/4;
-    width: 100%;
+    width: 99%;
     border-radius: 5px;
-    margin: 0 auto;
     z-index: -1;    
 }
 .pdf-button {
@@ -301,7 +300,7 @@ footer .social img {
     margin: 20px auto;
     border-radius: 50%;
 }
-.ramp:hover, .tent:hover {
+.pdf-button:hover {
     background-color: #bc6c25; 
     color:#000411;
 }

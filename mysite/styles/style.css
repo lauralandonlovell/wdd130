@@ -265,41 +265,48 @@ footer .social img {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
-#crafts-grid h2 {
+#crafts-grid h1 {
+    grid-column: 1/6;
     text-align: center;
     background-color: #fff3b0; 
     color: #000411;
     line-height: 2em;
     padding: 30px;
     box-shadow: 5px 5px 10px #000411;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
 #crafts-grid img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 5px;
     margin: 0 auto;    
 }
-#crafts-grid h3 {
+#crafts-grid h2 {
     text-align: center;
+    text-decoration: underline;
     background-color: #fff3b0; 
     color: #000411;
     line-height: 2em;
-    padding: 35px;
+    padding: 30px;
     box-shadow: 5px 5px 10px #000411;
+    margin: 0 auto; 
 }
-.button {
-    background-color: #000411;
-    border: none;
+.ramp,.tent {
+    background-color: #000411; 
     color: #fff3b0;
+    font-size: 20px;
     padding: 20px;
-    text-align: center;
     text-decoration: underline;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    margin: 50px auto;
     border-radius: 50%;
-  }
+}
+.ramp:hover, .tent:hover {
+    background-color: #bc6c25; 
+    color:#000411;
+}
+
+
+
+
 
 
   

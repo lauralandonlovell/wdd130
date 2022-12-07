@@ -254,7 +254,7 @@ footer .social img {
     padding: 5px;
     margin-top: 50px;
 }
-.gallery-grid {
+.crafts-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }

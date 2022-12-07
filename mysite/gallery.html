@@ -22,18 +22,25 @@
         <div id="crafts-grid">
         <section>
             <h1>Teckel Crafts and Photos</h1>
-            <div class="crafts-img"><img src="images/page3images/bigeyes.jpg" alt= "winnie-big-eyes"></div>
-            <form class="form" action="/action_page.php">
-                <h3>Sign-Up</h3>
-                    
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
-              
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-            
-                <button class="form-b" type="submit" class="btn">Login</button>
-            </form>
+            <div class="crafts-img"><img src="images/page3images/bigeyes.jpg" alt= "winnie-big-eyes">
+                <form action="/my-form-page" method="post">
+                    <h3>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                        
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" id="mail" name="user_email" />        
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>  
+                        </li>
+                    </h3>
+                </form>
+            </div>    
             </section>
             <section id="pdf">
                 <h2><a class="pdf-button" href="images/page3images/teckel_ramp_revised.pdf">Ramp</a>PDF Links to Directions<a class="pdf-button" href="images/page3images/teckel_tent_revised.pdf">Tent</a></h2>

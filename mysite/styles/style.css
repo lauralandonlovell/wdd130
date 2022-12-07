@@ -263,7 +263,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
-.title {
+#crafts-grid .title {
     text-align: center;
     background-color: #fff3b0; 
     color: #000411;
@@ -271,12 +271,12 @@ footer .social img {
     padding: 30px;
     box-shadow: 5px 5px 10px #000411;
 }
-.img-box {
+#crafts-grid img {
     grid-column: 1/3;
     grid-row: 2/4;
-}
- {
-    width: 99%;
+    max-width: 60%;
+  
+    
 }
 
 

@@ -281,9 +281,7 @@ footer .social img {
     margin: 0 auto;
     z-index: -1;    
 }
-#form .container {
-    grid-column: 2/3;
-}
+
 #crafts-grid h2 {
     text-align: center;
     text-decoration: underline;

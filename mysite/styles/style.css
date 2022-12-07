@@ -254,11 +254,15 @@ footer .social img {
     padding: 5px;
     margin-top: 50px;
 }
-.crafts-grid {
+#crafts-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
- 
+#img-box {
+grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+} 
 .msg h2{
     background-color: #fff3b0; 
     color: #000411;

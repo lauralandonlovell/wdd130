@@ -285,12 +285,13 @@ footer .social img {
     border:5px solid #bc6c25;
     box-shadow: 5px 5px 10px #000411;
 }
-/* .crafting img {
+.crafting img {
     grid-column: 3/6;
-} */
+}
 #crafts-form {
     grid-column: 3/4;
     grid-row: 2/3;
+    position: relative;
 }
 form {
     grid-column: 1/3;

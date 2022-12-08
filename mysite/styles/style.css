@@ -264,10 +264,10 @@ footer .social img {
 /* ---------------------------------------------------------Gallery Page--------------------------------------------------------------------------------------*/
 #crafts {
     display: grid;
-    grid-template-columns: 3fr, 2fr;
+    grid-template-columns: repeat(5, 20%);
 }
 
-#crafts-box {
+/*#crafts-box {
     text-align: center;
     text-decoration: underline;
     background-color: #fff3b0; 
@@ -276,13 +276,21 @@ footer .social img {
     padding: 30px;
     transition: transform .5s;
     margin: 0 auto;
+}*/
+#crafts-box {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    z-index: -1;
 }
- 
 
-#crafts-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
+#crafts-img {
+    width: 100%;
 }
+#crafts-titles {
+    text-align: center;
+    color:#000411;
+}
+.
 #crafts-grid form {
     grid-column: 1/10;
     text-align: center;
@@ -292,10 +300,6 @@ footer .social img {
     padding: 30px;
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;    
-}
-.bg-img {
-    border-radius: 5px;
-    z-index: -1;    
 }
 
 form {

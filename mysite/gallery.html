@@ -19,35 +19,39 @@
             <a href="gallery.html">Gallery</a>
         </nav>
         </header>
-        <section id="crafts">
-            <h1>Teckel Crafts and Photos</h1>
-            <h2 class="pdf"><a class="pdf-button" href="images/page3images/teckel_ramp_revised.pdf">Ramp</a>PDF Links to Directions<a class="pdf-button" href="images/page3images/teckel_tent_revised.pdf">Tent</a></h2>
-            <div id="form">
-                <img class="bg-img" src="images/page3images/bigeyes.jpg" alt= "winnie-big-eyes">
+        <div id="crafts">
+            <div id="crafts-box">
+                <img id="crafts-img" src="images/page3images/bigeyes.jpg" alt= "winnie-big-eyes">
             </div>
-            <div>
-                <img class="crafting" src="images/page3images/winniesnewramp.jpg" alt="winnie and ramp">
-            </div>        
-            <form action="/my-form-page" method="post" class="container">
-                <h3 class="form">Sign-Up</h3>
-                    <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email" />        
-                    </li>
-                    <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="button">
-                        <button type="submit">Send your message</button>  
-                    </li>
-                </ul>
-            </form>          
-        </section>
+            <section id="crafts-titles">
+                <h1 class="title">Teckel Crafts and Photos</h1>
+                <h2 class="pdf"><a class="pdf-button" href="images/page3images/teckel_ramp_revised.pdf">Ramp</a>PDF Links to Directions<a class="pdf-button" href="images/page3images/teckel_tent_revised.pdf">Tent</a></h2>
+                <div>
+                    <img class="crafting" src="images/page3images/winniesnewramp.jpg" alt="winnie and ramp">  
+                </div>
+            </section>
+            <section id="crafts-form">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email" />        
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>  
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </div>
         <main id="gallery-grid">
             <section class="gallery">
                 <img class=portrait src="images/page3images/winnienoseandears.jpg" alt="portrait">

@@ -266,17 +266,6 @@ footer .social img {
     display: grid;
     grid-template-columns: repeat(5, 20%);
 }
-
-/*#crafts-box {
-    text-align: center;
-    text-decoration: underline;
-    background-color: #fff3b0; 
-    color: #000411;
-    line-height: 2em;
-    padding: 30px;
-    transition: transform .5s;
-    margin: 0 auto;
-}*/
 #crafts-box {
     grid-column: 1/4;
     grid-row: 2/3;

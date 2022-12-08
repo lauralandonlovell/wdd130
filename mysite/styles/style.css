@@ -351,13 +351,10 @@ textarea {
 
 #gallery-grid {
     display: grid;
-    grid-template-columns:repeat(10, 1fr)
+    grid-template-columns:repeat(4, 1fr)
 }
-#gallery-box {
-    
-}
-.portrait {
-    grid-area: 1/3/1/5;
+ {
+    grid-area: 1/3/1/3;
 }
 .ears {
     grid-column: 2/4;

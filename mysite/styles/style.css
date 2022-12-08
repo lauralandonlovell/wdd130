@@ -357,6 +357,12 @@ img:hover {
     opacity: .6;
     transform: scale(1.1);
 } */
+#gallery-grid {
+    display: grid;
+    grid-template-columns:repeat(5, 20%)
+
+}
+
 
 
 

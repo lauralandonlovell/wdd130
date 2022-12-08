@@ -276,7 +276,7 @@ footer .social img {
 }
 .title {
     grid-column: 1/4;
-    grid-row: 1/2;
+    
     border: 5px solid #000411;
 }
 .pdf {

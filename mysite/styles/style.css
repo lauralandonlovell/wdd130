@@ -274,9 +274,8 @@ footer .social img {
 #crafts-img {
     width: 100%;
 }
-.title {
+#crafts-titles {
     grid-column: 1/4;
-    
     border: 5px solid #000411;
 }
 .pdf {
@@ -285,8 +284,9 @@ footer .social img {
     border:5px solid #bc6c25;
     box-shadow: 5px 5px 10px #000411;
 }
-.crafting img {
-    grid-column: 3/6;
+.crafting {
+    grid-column: 4/6;
+    
 }
 #crafts-form {
     grid-column: 3/4;

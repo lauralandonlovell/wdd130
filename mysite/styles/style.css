@@ -263,10 +263,10 @@ footer .social img {
 }
 #crafts-grid {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: repeat(3fr 2fr);
 }
 #crafts-grid h1 {
-    grid-column: 1/6;
+    grid-column: 1/10;
     text-align: center;
     background-color: #fff3b0; 
     color: #000411;
@@ -276,8 +276,8 @@ footer .social img {
     margin-right: 10px;    
 }
 
-#crafts-grid h2 {
-    
+#crafts-grid {
+    grid-area: 3/6;
     text-align: center;
     text-decoration: underline;
     background-color: #fff3b0; 
@@ -292,9 +292,6 @@ footer .social img {
     border-radius: 5px;
     z-index: -1;    
 }
-
-
-
 .pdf-button {
     background-color: #000411; 
     color: #fff3b0;
@@ -312,8 +309,6 @@ footer .social img {
     width: 100%;
     
 }
-
-
 .container {
     position: absolute;
     right: 0;
@@ -322,6 +317,18 @@ footer .social img {
     padding: 16px;
     background-color: white;   
 }
+#gallery-grid {
+    display: grid;
+    grid-template-columns: repeat (10, 1fr);
+}
+#gallery-grid img {
+    width: 100%;
+    border: 5px solid #000411;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px;
+
+}
+
 
 
 

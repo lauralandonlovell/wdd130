@@ -297,7 +297,6 @@ form {
     border: 5px solid #000411;
     border-radius: 50%;
     box-shadow: 5px 5px 10px#000411; 
-    z-index: 1; 
 }
 h3 {
     list-style: none;
@@ -311,13 +310,13 @@ label {
 }
 input, textarea {
     font: 1em sans-serif;
-    width: 300px;
+    width: 200px;
     box-sizing: border-box;
-    border: 5px solid #000000;
-    box-shadow: 2px 2px 5px #031a6b
+    border: 5px solid #000411;
+    box-shadow: 5px 5px 10px #000411;
 }
 input:focus, textarea:focus {
-    border-color:#800000;
+    border-color:#bc6c25;
 
 }
 textarea {

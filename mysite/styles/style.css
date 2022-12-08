@@ -282,30 +282,35 @@ footer .social img {
     grid-row: 2/3;
     z-index: -1;
 }
-
 #crafts-img {
     width: 100%;
 }
-#crafts-titles {
-    text-align: center;
-    color:#000411;
-}
 .title {
     grid-column: 1/4;
+    grid-row: 1/2;
 }
 .pdf {
     grid-column: 3/6;
+    grid-row: 2/3;
 }
-#crafts-grid form {
-    grid-column: 1/10;
-    text-align: center;
+.crafting {
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+#crafts-form {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+    /* text-align: center;
     background-color: #fff3b0; 
     color: #000411;
     line-height: 2em;
     padding: 30px;
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;    
-}
+} */ */
 
 form {
     grid-column: 1/3;

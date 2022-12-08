@@ -287,7 +287,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;
 }
-#crafts-grid img {
+/* #crafts-grid img {
     width: 99%;
     border-radius: 5px;
     z-index: -1;    
@@ -308,26 +308,26 @@ footer .social img {
 .crafting {
     width: 100%;
     
-}
-.container {
-    position: absolute;
-    right: 0;
-    margin: 20px;
-    max-width: 200px;
-    padding: 16px;
-    background-color: white;   
-}
+} */
 #gallery-grid {
     display: grid;
     grid-template-columns: repeat (10, 1fr);
 }
 #gallery-grid img {
-    width: 100%;
-    border: 5px solid #000411;
+    width: 99%;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px;
-
+    border: 5px solid #000411;
+    box-shadow:5px 5px 10px #000411;   
 }
+#gallery-grid img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+
+
+
 
 
 

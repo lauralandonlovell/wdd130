@@ -287,11 +287,11 @@ footer .social img {
     box-shadow: 5px 5px 10px #000411;
     margin-right: 10px;
 }
-/* #crafts-grid img {
-    width: 99%;
-    border-radius: 5px;
-    z-index: -1;    
+#crafts-grid img {
+    width: 100%;
+    border-radius: 5px;    
 }
+.
 .pdf-button {
     background-color: #000411; 
     color: #fff3b0;
@@ -308,18 +308,13 @@ footer .social img {
 .crafting {
     width: 100%;
     
-} */
-#gallery-grid {
-    display: grid;
-    grid-template-columns: repeat (10, 1fr);
 }
-#gallery-grid img {
-    width: 99%;
+img {
     transition: transform .5s;
     border: 5px solid #000411;
     box-shadow:5px 5px 10px #000411;   
 }
-#gallery-grid img:hover {
+img:hover {
     opacity: .6;
     transform: scale(1.1);
 }

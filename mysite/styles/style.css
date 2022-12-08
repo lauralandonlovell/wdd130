@@ -270,15 +270,14 @@ footer .social img {
     grid-column: 1/4;
     grid-row: 2/3;
     z-index: -1;
-   
 }
 #crafts-img {
     width: 100%;
 }
 .title {
-    grid-column: 1;
+    grid-column: 1/4;
+    grid-row: 1/2;
     border: 5px solid #000411;
-    
 }
 .pdf {
     grid-column: 3/6;
@@ -286,22 +285,25 @@ footer .social img {
     border:5px solid #bc6c25;
     box-shadow: 5px 5px 10px #000411;
 }
-.crafting {
-    
-}
+/* .crafting img {
+    grid-column: 3/6;
+} */
 #crafts-form {
     grid-column: 3/4;
+    grid-row: 2/3;
 }
 form {
     grid-column: 1/3;
+    grid-row:1;
     color: #000411;
     padding: 1em;
     border: 5px solid #000411;
     border-radius: 50%;
     box-shadow: 5px 5px 10px#000411;
+    position:relative;
     margin-right: 10px;
     margin-left: -10px;
-    margin-top: 200px;
+    margin-top: 10px;
 }
 h3 {
     list-style: none;

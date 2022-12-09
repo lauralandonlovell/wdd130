@@ -262,7 +262,7 @@ footer .social img {
     text-decoration: underline;
 }
 /* ---------------------------------------------------------Gallery Page--------------------------------------------------------------------------------------*/
-/*#crafts {
+#crafts {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
@@ -272,18 +272,12 @@ footer .social img {
     padding: 30px;
     border:5px solid #000411;
 }
-#crafts-box {
-    grid-area: 1/4/2/4;
-    border:5px dotted #bc6c25
-}
 #crafts-img {
     width: 100%;
     border: 5px dotted #000411;
     z-index:-1;
 }
 form {
-    grid-area: 1/4/2/3;
-    background-color: #fff3b0;
     color: #000411;
     padding: 1em;
     border: 5px solid #000411;

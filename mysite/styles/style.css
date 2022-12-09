@@ -275,7 +275,7 @@ footer .social img {
 #crafts-box {
     width: 100%;
     border: 5px dotted #000411;
-    z-index:-1;
+    
 }
 #crafts-form {
     grid-column: 2/3;

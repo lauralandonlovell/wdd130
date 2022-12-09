@@ -272,7 +272,7 @@ footer .social img {
     padding: 30px;
     border:5px solid #000411;
 }
-#crafts-box img {
+#crafts-box {
     width: 100%;
     border: 5px dotted #000411;
     z-index:-1;
@@ -281,9 +281,9 @@ form {
     margin: 0 auto;
     width: 400px;
     padding: 1em;
-    border: 5px solid #000000;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px #031a6b;
+    border: 5px solid #000411;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px #000411;
     margin-top: -700px; 
     margin-left: 500px;  
 }
@@ -405,7 +405,7 @@ button {
 }
 
 @media screen and (max-width: 900px) {
-    #teckel,.main-grid, #care-card,#care-grid, #crafts, #gallery-grid {
+    #teckel,.main-grid, #care-card,#care-grid, #crafts, #gallery-grid, #gallery-img {
         display: block;
         height: auto;
     }

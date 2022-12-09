@@ -271,20 +271,16 @@ footer .social img {
     text-align: center;
     padding: 30px;
     border:5px solid #000411;
-    
-
+}
+#crafts-box {
+   
 }
 #crafts-img {
     width: 100%;
     z-index:-1;
 }
-#crafts-box {
-    max-width:
-    border:5px dotted #000411;
-}
-#crafts-img {
-    width: 100%;
-}
+
+
 
 
 

@@ -360,6 +360,12 @@ main section {
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
 }
+.img {
+    width: 100%;
+    padding: 10px auto;
+    margin:0 auto;
+}
+
 
 
 

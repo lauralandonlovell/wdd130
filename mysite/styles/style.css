@@ -277,7 +277,8 @@ footer .social img {
     border: 5px dotted #000411;
     z-index:-1;
 }
-form {
+#crafts-form {
+    grid-column: 2/3;
     margin: 0 auto;
     width: 400px;
     padding: 1em;

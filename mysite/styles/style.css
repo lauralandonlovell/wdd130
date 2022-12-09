@@ -427,6 +427,12 @@ button {
         width: 96%;
         margin: 0 auto;
     }
+    .pdf {
+        color:#fff3b0;
+    }
+    .pdf-button {
+        background-color: #bc6c25;
+    }
     footer {
         padding: 10px;
     }

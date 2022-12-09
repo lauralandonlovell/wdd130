@@ -262,7 +262,7 @@ footer .social img {
     text-decoration: underline;
 }
 /* ---------------------------------------------------------Gallery Page--------------------------------------------------------------------------------------*/
-#crafts {
+/*#crafts {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }

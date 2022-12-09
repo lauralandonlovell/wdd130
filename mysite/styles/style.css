@@ -356,24 +356,53 @@ button {
 }
 #gallery-img {
     display: grid;
-    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
-    margin: 0 auto;
 }
 .portrait {
     grid-column: 1/2;
+    grid-row: 1/2;
     padding: 20px;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
+    margin: 50px;
     
 }
 .ears {
     grid-column: 2/3;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
+    margin: 50px;
 }
 .sleeping {
     grid-column: 3/4;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
+    margin: 50px;
 }
-
+.puppy {
+    grid-area: 1/2/2/3;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
+    margin: 50px;
+}
+.standing {
+    grid-area: 2/3/2/3;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.furcoat {
+    grid-area: 4/6/2/3;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
+    margin: 50px;
+}
 
 
 

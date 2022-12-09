@@ -267,35 +267,22 @@ footer .social img {
     grid-template-columns: 3fr 2fr;
 }
 #crafts-title {
-    grid-column: 1/4;
+    grid-column: 4/6;
     text-align: center;
     padding: 30px;
     border:5px solid #000411;
 }
 #crafts-box {
-   
+    grid-area: 1/4/2/4;
+    border:5px dotted #bc6c25
 }
 #crafts-img {
     width: 100%;
+    border: 5px dotted #000411;
     z-index:-1;
 }
-
-
-
-
-
-
-.pdf {
-    grid-column: 3/6;
-    grid-row: 2/3;
-}
-.crafting {
-    grid-column: 3/6;
-    grid-row: 3/4;
-}
 form {
-    grid-column: 1/2;
-    grid-row: 2/3;
+    grid-area: 1/4/2/3;
     background-color: #fff3b0;
     color: #000411;
     padding: 1em;
@@ -336,6 +323,15 @@ textarea {
     color:#bc6c25;
     margin-left: 0.5em;
 }
+.pdf {
+    grid-column: 3/6;
+    grid-row: 2/3;
+}
+.crafting {
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+
 .pdf-button {
     background-color: #000411; 
     color: #fff3b0;

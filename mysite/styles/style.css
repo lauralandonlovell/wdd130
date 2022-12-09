@@ -406,7 +406,7 @@ button {
 }
 
 @media screen and (max-width: 900px) {
-    #teckel,.main-grid, #care-card,#care-grid, #crafts, #gallery-grid, #gallery-img {
+    #teckel,.main-grid, #care-card,#care-grid, #crafts,#crafts-img, #gallery-grid, #gallery-img {
         display: block;
         height: auto;
     }

@@ -347,7 +347,7 @@ button {
     font-size: 20px;
     padding: 20px;
     text-decoration: underline;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 50%;
 }
 .pdf-button:hover {

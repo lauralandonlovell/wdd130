@@ -356,26 +356,19 @@ button {
 }
 #gallery-grid {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: repeat(10 1fr);
+}
+#gallery-img {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px#000411;
+    border:5px solid #000411;
 }
 .portrait {
-    grid-area: 1/3/1/3;
+    grid-column: 1/3;
+    margin-top: -100px;
 }
-.ears {
-    grid-area: 2/4/1/2;
-}
-.sleeping {
-    grid-column: 3/5;
-}
-.puppy {
-    grid-column: 4/6;
-}
-.standing {
-    grid-column: 5/7;
-}
-.furcoat {
-    grid-column: 6/8;
-}
+
 
 
 

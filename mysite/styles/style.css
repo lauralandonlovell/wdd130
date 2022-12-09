@@ -354,17 +354,26 @@ button {
     background-color: #bc6c25; 
     color:#000411;
 }
-main section {
+#gallery-img {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
+    margin: 0 auto;
 }
-.img {
-    width: 100%;
-    padding: 10px auto;
-    margin:0 auto;
+.portrait {
+    grid-column: 1/2;
+    padding: 20px;
+    
 }
+.ears {
+    grid-column: 2/3;
+}
+.sleeping {
+    grid-column: 3/4;
+}
+
 
 
 

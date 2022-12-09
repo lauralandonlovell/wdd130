@@ -356,18 +356,15 @@ button {
 }
 #gallery-grid {
     display: grid;
-    grid-template-columns: repeat(10 1fr);
-}
-#gallery-img {
-    width: 100%;
-    margin: 0 auto;
+    grid-template-columns: repeat(10, 20%);
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
 }
 .portrait {
+    width: 400px;
     grid-column: 1/3;
-    margin-top: -100px;
 }
+
 
 
 

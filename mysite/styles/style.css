@@ -281,7 +281,8 @@ form {
     border-radius: 1em;
     box-shadow: 5px 5px 10px #000411;
     margin-top: -700px; 
-    margin-left: 500px;  
+    margin-left: 500px;
+    z-index: 1;  
 }
 h3 {
     list-style: none;

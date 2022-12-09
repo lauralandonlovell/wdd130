@@ -404,27 +404,8 @@ button {
     margin: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
 @media screen and (max-width: 900px) {
-    #teckel,.main-grid, #care-card,#care-grid{
+    #teckel,.main-grid, #care-card,#care-grid, #crafts, #gallery-grid {
         display: block;
         height: auto;
     }
@@ -435,7 +416,7 @@ button {
         display: block;
         padding: 15px;
     }
-    #care-card {
+    #care-card, .crafting, .pdf {
         width: 99%;
         padding-right: 5px;
         margin: 0 auto;

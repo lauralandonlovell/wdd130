@@ -354,19 +354,13 @@ button {
     background-color: #bc6c25; 
     color:#000411;
 }
-#gallery-grid {
+main section {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
 }
-.portrait {
-    grid-column: 4/6;
-}
-.ears {
-    width: 400px;
-    grid-column: 3/4;
-}
+
 
 
 

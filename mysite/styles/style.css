@@ -399,7 +399,7 @@ button {
     margin-bottom: 30px;
 }
 .furcoat {
-    grid-area: 2/3/2/3;
+    grid-area: 2/2/2/3;
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
     margin: 50px;

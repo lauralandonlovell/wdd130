@@ -5,13 +5,13 @@
 }
 body {
     background-color: #fff3b0;
-    font-family:"BioRhyme+Expanded:wght@300;800", "serif";
+    font-family:"BioRhyme Expanded", "serif";
     font-size: 20px;
     margin: 0;
     padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: "BioRhyme+Expanded:wght@300;800", "serif";
+    font-family: "BioRhyme Expanded", "serif";
     font-weight: 700;
     color:#000411;
 }
@@ -68,7 +68,7 @@ nav a:hover {
 }
 #teckel-msg {
     text-align: left;
-    font-family: "BioRhyme+Expanded:wght@300;800", "serif";
+    font-family: "BioRhyme Expanded", "serif";
     line-height: 1.5em;
     padding: 25px;
     color: #000411;
@@ -294,7 +294,7 @@ h3 {
     margin:0;
 }
 label {
-    font:"BioRhyme+Expanded:wght@300;800", "serif";
+    font:"BioRhyme Expanded", "serif";
     display: inline-block;
     width: 90px;
     text-align: center;

@@ -409,7 +409,7 @@ button {
     padding: 20px;
     box-shadow: 5px 5px 10px#000411;
     border:5px solid #000411;
-    margin: 50px;
+    margin: 30px;
 }
 
 @media screen and (max-width: 900px) {
